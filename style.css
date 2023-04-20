@@ -1,0 +1,207 @@
+@font-face {
+    font-family: Light Italic;
+    src: url("Fonts/Roboto-LightItalic.ttf");
+
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("Fonts/Roboto-Regular.ttf");
+
+}
+
+* {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+header {
+    max-width: 95%;
+    max-height: 100%;
+    background-color: #1F2937;
+    font-family: Regular;
+}
+
+.container {
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar1 {
+    width: 95%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.logo {
+    cursor: pointer;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#menu {
+    flex: 1;
+}
+
+#menu ul {
+    display: flex;
+    float: right;
+}
+
+.item {
+    margin-left: 30px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.item:hover {
+    color: rgb(0, 255, 200);
+}
+
+.menu-bar2 {
+    max-width: 95%;
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.headerText {
+    flex: 1;
+    margin-right: 3%;
+}
+
+.headerText h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.headerText p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5%;
+}
+
+.headerText button {
+    max-width: 7vw;
+    max-height: 9vh;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    cursor: pointer;
+    color: #e5e7eb;
+    padding: 3%;
+}
+
+.info {
+    max-width: 95%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Regular;
+}
+
+.info-box {
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    padding: 2%;
+    flex: 1;
+    text-align: center;
+}
+
+.info-item img {
+    border: 3px solid #3B82F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-item p {
+    color: #1f2937;
+}
+
+.section3 {
+    max-width: 95%;
+    max-height: 70vh;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    font-family: Light Italic;
+}
+
+.text-content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+}
+
+.text-content h5 {
+    float: right;
+}
+
+#section4 {
+    max-width: 95%;
+    max-width: 70vh;
+    display: flex;
+    align-items: center;
+    font-family: Regular;
+}
+
+.blueprint {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
+    background-color: #3B82F6;
+    border-radius: 10px;
+}
+
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5%;
+    color: #f9faf8;
+}
+
+.note button {
+    max-width: 12vw;
+    max-height: 8vh;
+    background-color: #3882f6;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#footer-container {
+    max-width: 95%;
+    max-height: 50vh;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-container h4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
