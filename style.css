@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem;
+    font-family: Roboto;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.main-container {
+    display: grid;
+    width: 37rem;
+    height: 57rem;
+    background-color: #3882f6;
+    padding: 2rem;
+    border-radius: 11px;
+}
+
+.logo {
+    margin: 0  auto;
+}
+
+.logo img {
+    width: 5rem;
+    border-radius: 11px;
+}
+
+.introduction {
+    margin: 0 auto;
+    font-size: 4rem;
+    color: black;
+}
+
+.user-information {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.user-information__name {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.user-information__email {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.user-information__input {
+    border-radius: 8px;
+    border: none;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-signup {
+    margin-right: 2rem;
+    padding: .5rem;
+    color: white;
+    background-color: #5997fa;
+    border-radius: 11px;
+    border: none;
+}
+
+.button-signin {
+    padding: .5rem;
+    color: white;
+    background-color: #5997fa;
+    border-radius: 11px;
+    border: none;
+}
+
+.help-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
