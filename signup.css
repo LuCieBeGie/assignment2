@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem;
+    font-family: Roboto;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.main-container {
+    display: grid;
+    width: 30rem;
+    height: 57rem;
+    background-color: #3882f6;
+    padding: 2rem;
+    border-radius: 11px;
+}
+
+.logo {
+    margin: 0  auto;
+}
+
+.logo img {
+    width: 5rem;
+    border-radius: 11px;
+}
+
+.introduction {
+    margin: 0 auto;
+    font-size: 4rem;
+    color: black;
+}
+
+.user-information {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.user-information__name {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.user-information__email {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.user-information__input {
+    border-radius: 8px;
+    border: none;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-signup {
+    margin-right: 2rem;
+    padding: .5rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: #5997fa;
+    border-radius: 11px;
+    border: none;
+}
+
+.button-signup a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-signup:hover {
+    background-color: #001a45;
+}
+
+.button-signin {
+    padding: .5rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: #5997fa;
+    border-radius: 11px;
+    border: none;
+}
+g
+.button-signin:hover {
+    background-color: #001a45;
+}
+
+.help-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* MEDIA QUERIE FOR TABLET SIZE  */
+
+@media(min-width: 600px) and (max-width: 800px) { 
+    .main-container {
+        width: 37rem;
+    }
+
+    .introduction {
+        font-size: 4.5rem;
+    }
+
+    .user-information__name {
+        font-size: 2rem;
+    }
+    
+    .user-information__email {
+        font-size: 2rem;
+    }
+
+    .user-information__input {
+        padding: .5rem;
+    }
+    
+    .button-signup {
+        margin-right: 2rem;
+        padding: 1rem;
+    }
+    
+    .button-signin {
+        padding: 1rem;
+    }
+
+    .help-box__remember {
+        font-size: 1.5rem;
+    }
+
+    .help-box__password {
+        font-size: 1.5rem;
+    }
+} 
+
+@media(min-width: 801px) {
+    .main-container {
+        width: 42rem;
+    }
+
+    .introduction {
+        font-size: 4.5rem;
+    }
+
+    .user-information__name {
+        font-size: 2rem;
+    }
+    
+    .user-information__email {
+        font-size: 2rem;
+    }
+
+    .user-information__input {
+        padding: .5rem;
+    }
+
+    .button-signup {
+        margin-right: 2rem;
+        padding: 1rem;
+    }
+
+    .button-signin {
+        padding: 1rem;
+    }
+
+    .help-box__remember {
+        font-size: 1.5rem;
+    }
+
+    .help-box__password {
+        font-size: 1.5rem;
+    }
+}
